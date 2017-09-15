@@ -10,7 +10,6 @@ header {
   background: white;
   position: fixed;
   top: 0px;
-
 }
 
 .heading {
@@ -28,34 +27,29 @@ span {
 
 nav {
   padding-left: 820px;
-
 }
 
 .column.large {
   width: 630px;
-  padding-top: 80px;
-
-
+  padding-top: 110px;
 }
 
 .column.medium {
   width: 300px;
-  padding-top: 120px;
-
+  padding-top: 90px;
 }
 
 .column.small {
   width: 240px;
-  padding-top: 100px;
-
+  padding-top: 110px;
+  flex-direction: column;
 }
 
 .main.content {
   display: flex;
   margin-top: 0px;
   justify-content: space-around;
-
-
+  padding-bottom: 300px;
 }
 
 .mainstoryimage {background-image: url("../images/mainstory.png");
@@ -64,39 +58,41 @@ nav {
   font-weight: bold;
   font-size: 40px;
   color: white;
-  height: 34%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
 }
 
+
+
 .fallseasonimage {background-image: url("../images/fallseason.png");
-background-repeat: no-repeat;
-text-align: center;
-font-family: Georgia;
-font-weight: bold;
-font-size: 30px;
-color: white;
-height: 40%;
-display: inline-flex;
-align-items: center;
-justify-content: center;
-width: 300px;
-
-
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 40%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
 }
 
 .hipstercameraman {background-image: url("../images/hipstercameraman.png");
-background-repeat: no-repeat;
-text-align: center;
-font-family: Georgia;
-font-weight: bold;
-font-size: 30px;
-color: white;
-height: 40%;
-width: 300px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-float: right;
-
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 40%;
+  width: 300px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
 }
 
 .catceo {background-image: url("../images/catceo.png");
@@ -105,8 +101,10 @@ float: right;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
   text-align: center;
-  height: 40%;
+  align-items: center;
+  height: 33%;
 }
 
 .storytext {
@@ -120,10 +118,78 @@ float: right;
   display: inline-block;
   width: 300px;
   padding-right: 10px;
+  padding-bottom: 30px;
 }
 
 .blocking2 {
   display: inline-block;
   width: 300px;
   padding-left: 10px;
+  padding-bottom: 30px;
+}
+
+.newsbiteslist {
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  color: DimGray;
+  background-color: WhiteSmoke;
+  margin-top: 50px;
+}
+
+.newsbitestitle {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.item1 {
+  border-bottom: 1px solid black;
+  padding-left: 20px;
+  padding-top: 1px;
+}
+.item2 {
+  border-bottom: 1px solid black;
+  padding-left: 20px;
+}
+
+.item3 {
+  border-bottom: 1px solid black;
+  padding-left: 20px;
+
+}
+
+.item4 {
+  border-bottom: 1px solid black;
+  padding-left: 20px;
+}
+
+.item5 {
+  border-bottom: 1px solid black;
+  padding-left: 20px;
+}
+
+.item6 {
+  border-bottom: 1px solid black;
+  padding-left: 20px;
+  padding-bottom: 1px;
+}
+
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.footertitle {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
 }
